@@ -10,7 +10,7 @@ Built using traditional NLP techniques, scikit learn models, and rule based enti
 
 ##  Demo Video
 
-▶️ **CLICK HERE👇**
+▶️ `CLICK HERE👇`
 
 [![Watch the demo](https://img.youtube.com/vi/QeQ2JdWP4xA/hqdefault.jpg
 )](https://youtu.be/QeQ2JdWP4xA)
@@ -20,9 +20,9 @@ Built using traditional NLP techniques, scikit learn models, and rule based enti
 
 This project processes raw customer support tickets and provides:  
 
-- **Issue type classification** (eg: product defect, late delivery)
-- **Urgency level prediction** (eg: low, medium, high)  
-- **Entity extraction** of product names, dates, and complaint keywords  
+- **Issue type classification** (eg: `product defect`, `late delivery`)
+- **Urgency level prediction** (eg: `low`, `medium`, `high`)  
+- **Entity extraction** of `product names`, `dates`, and `complaint keywords`  
 - Interactive user input and output through a **Gradio web interface**
 - pipeline that uses a combination of **traditional NLP preprocessing**, **ML classifiers**, and **custom rule-based entity extraction**.
 
@@ -109,17 +109,17 @@ Output display in Gradio:
 
 ## Model Evaluation & Metrics
 
-- Issue Type Classifier: Logistic Regression
+- Issue Type Classifier: `Logistic Regression`
 
-- Urgency Level Classifier: Random Forest
+- Urgency Level Classifier: `Random Forest`
 
 Both models were evaluated using:
 
-- Classification Report (precision, recall, F1-score per class)
+- Classification Report (`precision`, `recall`, `F1-score` per class)
 
-- Confusion Matrix for error analysis
+- `Confusion Matrix` for error analysis
 
-- 80-20 Train-Test Split to ensure balanced representation
+- `80-20` Train-Test Split to ensure balanced representation
 
 The issue type model achieved strong F1-scores (0.99) for major classes and performed robustly on unseen tickets.
 but the urgency type model achieved subpar results (0.40) 
@@ -131,11 +131,11 @@ but the urgency type model achieved subpar results (0.40)
 - Rule-based approach chosen for:
   -  High precision on domain-specific entitiese
   -  easy customization (adding new complaint phrases)
-  -  Handling of informal date formats (eg 19 May, May 19) using regex
+  -  Handling of informal date formats (eg 19 May, May 19) using `regex`
 
-- Product extraction done by matching known product names (lookup based).
+- Product extraction done by matching known product names (`lookup based`).
 
-- Complaint keywords expanded with phrase detection like "days late" and "not working". (dictionary/ domain based)
+- Complaint keywords expanded with phrase detection like "days late" and "not working". (`dictionary/ domain based`)
 
 ## ✖️ Limitations & Future Work
 
@@ -161,7 +161,7 @@ but the urgency type model achieved subpar results (0.40)
 
 ## CONCLUSION
 
-This project provides great insights on customer support tickets analysis by combining rule-based NLP extraction with robust machine learning classification.
+This project provides great insights on customer support tickets analysis by combining `rule-based NLP extraction with robust machine learning classification`.
 The interactive Gradio app demonstrates the final working of the model.
 
 ---
